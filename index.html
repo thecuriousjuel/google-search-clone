@@ -1,107 +1,101 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-    <title>Google</title>
-  </head>
 
-  <body class="flex min-h-screen flex-col">
-    <nav>
-      <ul class="mx-5 flex items-center justify-end space-x-5 py-3">
-        <li class="cursor-pointer text-sm hover:underline">Gmail</li>
-        <li class="cursor-pointer text-sm hover:underline">Images</li>
-        <img
-          src="images/9dots.png"
-          class="w-5 cursor-pointer"
-          alt=""
-          srcset=""
-        />
-        <button
-          class="rounded-md bg-blue-500 px-6 py-2 text-white hover:bg-blue-600 hover:shadow-md"
-        >
-          Sign in
-        </button>
-      </ul>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <title>Google</title>
+</head>
 
-    <!-- Google Logo -->
-    <div class="pb-2 pt-20">
-      <img src="images/logo.png" class="m-auto" alt="" srcset="" />
-    </div>
-
-    <!-- Input Field -->
-    <div class="flex justify-center p-5">
-      <input
-        type="text"
-        name=""
-        class="mx-28 pl-10 pr-10 focus:outline-none w-[600px] rounded-3xl border-2 border-gray-200 py-3 hover:shadow-md"
-        id=""
-        placeholder=""
-        autocomplete="off"
-      />
-    </div>
-
-    <!-- Buttons -->
-    <div class="flex justify-center space-x-5 py-2">
-      <button
-        class="rounded-md bg-gray-50 text-gray-700 px-6 py-2 hover:shadow-sm hover:outline hover:outline-1 hover:outline-gray-200"
-      >
-        Google Search
+<body class="flex min-h-screen flex-col no-scrollbar">
+  <nav>
+    <ul class="mx-5 flex items-center justify-end space-x-5 py-3">
+      <li class="cursor-pointer text-sm hover:underline">Gmail</li>
+      <li class="cursor-pointer text-sm hover:underline">Images</li>
+      <img src="images/9dots.png" class="w-5 cursor-pointer" alt="" srcset="" />
+      <button class="rounded-md bg-blue-500 px-6 py-2 text-white hover:bg-blue-600 hover:shadow-md">
+        Sign in
       </button>
-      <button
-        class="rounded-md bg-gray-50 text-gray-700 px-6 py-2 hover:shadow-sm hover:outline hover:outline-1 hover:outline-gray-200"
-      >
-        I'm Feeling Lucky
-      </button>
+    </ul>
+  </nav>
+
+  <!-- Google Logo -->
+  <div class="pb-2 pt-20">
+    <img src="images/logo.png" class="m-auto" alt="" srcset="" />
+  </div>
+
+  <!-- Input Field -->
+  <div class="flex justify-center p-5">
+    <div class="relative flex items-center">
+      <img src="images/search.png" alt="" class="absolute h-5 w-5 ml-36" />
+      <img src="images/google_microphone.png" alt="" class="absolute h-7 w-15 ml-[630px]" />
+      <input type="text" name=""
+        class="mx-28 w-[600px] rounded-3xl border-2 border-gray-200 py-3 pl-20 pr-10 hover:shadow-md focus:outline-none"
+        id="" placeholder="" autocomplete="off" />
     </div>
+  </div>
 
-    <!-- Languages  -->
-    <div class="flex items-center justify-center py-5">
-      <p class="px-2 text-sm">Google offered in:</p>
-      <ul class="flex space-x-2 text-sm">
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          हिन्दी
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          বাংলা
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          తెలుగు
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          मराठी
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          தமிழ்
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          ગુજરાતી
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          ಕನ್ನಡ
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          മലയാളം
-        </li>
-        <li class="cursor-pointer text-sm text-blue-800 hover:underline">
-          ਪੰਜਾਬੀ
-        </li>
-      </ul>
+  <!-- Buttons -->
+  <div class="flex justify-center space-x-5 py-2">
+    <button
+      class="rounded-md bg-gray-50 px-6 py-2 text-gray-700 hover:shadow-sm hover:outline hover:outline-1 hover:outline-gray-200">
+      Google Search
+    </button>
+    <button
+      class="rounded-md bg-gray-50 px-6 py-2 text-gray-700 hover:shadow-sm hover:outline hover:outline-1 hover:outline-gray-200">
+      I'm Feeling Lucky
+    </button>
+  </div>
+
+  <!-- Languages  -->
+  <div class="flex items-center justify-center py-5">
+    <p class="px-2 text-sm">Google offered in:</p>
+    <ul class="flex space-x-2 text-sm">
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        हिन्दी
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        বাংলা
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        తెలుగు
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        मराठी
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        தமிழ்
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        ગુજરાતી
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        ಕನ್ನಡ
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        മലയാളം
+      </li>
+      <li class="cursor-pointer text-sm text-blue-800 hover:underline">
+        ਪੰਜਾਬੀ
+      </li>
+    </ul>
+  </div>
+
+  <!-- div space -->
+  <div class="flex-grow"></div>
+
+  <footer>
+    <div class="bg-gray-100 px-5 py-3">
+      <p class="text-gray-500">India</p>
     </div>
-
-    <!-- div space -->
-    <div class="flex-grow"></div>
-
-    <footer>
-      <div class="bg-gray-100 px-5 py-3">
-        <p class="text-gray-500">India</p>
-      </div>
-      <hr />
-      <ul class="flex justify-evenly bg-gray-100 py-3 text-gray-600">
-        <li class="cursor-pointer text-gray-500 hover:underline">About</li>
+    <hr />
+    <ul class="flex flex-row justify-between bg-gray-100 py-3 text-gray-600">
+      <div class="flex w-96 flex-row justify-between">
+        <li class="cursor-pointer pl-5 text-gray-500 hover:underline">
+          About
+        </li>
         <li class="cursor-pointer text-gray-500 hover:underline">
           Advertising
         </li>
@@ -109,10 +103,14 @@
         <li class="cursor-pointer text-gray-500 hover:underline">
           How Search works
         </li>
+      </div>
+      <div class="flex w-48 flex-row justify-between pr-5">
         <li class="cursor-pointer text-gray-500 hover:underline">Privacy</li>
         <li class="cursor-pointer text-gray-500 hover:underline">Terms</li>
         <li class="cursor-pointer text-gray-500 hover:underline">Settings</li>
-      </ul>
-    </footer>
-  </body>
+      </div>
+    </ul>
+  </footer>
+</body>
+
 </html>
